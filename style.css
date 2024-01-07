@@ -1,7 +1,8 @@
-@font-face {
+
+@font-face {
   font-family: Gilroy;
   src: url('https://intrepid-codes.github.io/prichat/Gilroy-Bold.ttf');
-}
+}
 *{
     margin: 0;
     padding: 0;
@@ -148,7 +149,7 @@ nav{
     -webkit-filter: blur(5px);
   }
   #portfolio-area #portfolio-text{
-    height: calc(100% - 90px);
+    height: 100%;
     width: 100%;
     position: absolute;
     text-align: center;
@@ -352,6 +353,7 @@ nav{
   }
 
   @media (max-width: 940px) {
+    
     html, body{
       font-size: 64.5%;
     }
@@ -371,6 +373,10 @@ nav{
     }
     #brand h2{
       font-size: 2rem;
+    }
+    #buttons{
+      display: flex;
+      width: 100%;
     }
     #buttons button span{
       display: flex;
@@ -439,6 +445,7 @@ nav{
       align-items: center;
       justify-content: center;
       font-size: 1.4rem;
+      padding: 0rem ;
       padding: 1rem 3rem;
       display: block;
     }
@@ -453,11 +460,11 @@ nav{
       padding: 1.4rem 0rem;
     }
     #login-container h3{
-      padding: 1rem 3rem;
+      padding: 0rem 3rem;
       font-size: 4rem;
     }
     #google-button{
-      width: 60%;
+      width: 80%;
       height: 4rem;
     }
     #google-button i{
