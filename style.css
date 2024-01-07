@@ -148,7 +148,7 @@ nav{
     -webkit-filter: blur(5px);
   }
   #portfolio-area #portfolio-text{
-    height: calc(100% - 70px);
+    height: calc(100% - 90px);
     width: 100%;
     position: absolute;
     text-align: center;
